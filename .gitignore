@@ -1,0 +1,15 @@
+# Ignore data, model, and cache files
+*.csv
+*.pkl
+*.joblib
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Allow required files
+!Fraud_detection.py
+!dataset.py
+!requirements.txt
